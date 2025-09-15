@@ -97,3 +97,24 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+
+# --- Custom rules for heavy 3D models ---
+# Ignore FBX, OBJ and other 3D models
+*.fbx
+*.fbx.meta
+*.FBX
+*.FBX.meta
+
+*.obj
+*.obj.meta
+*.OBJ
+*.OBJ.meta
+
+# Opcional: si usas otros formatos de modelos 3D grandes (añádelos aquí)
+*.dae
+*.dae.meta
+*.3ds
+*.3ds.meta
+*.stl
+*.stl.meta
